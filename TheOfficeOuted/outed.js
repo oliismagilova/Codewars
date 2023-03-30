@@ -2,7 +2,7 @@ function outed(meet, boss){
     let sum = 0;
     let length = Object.keys(meet).length;
     let res=0;
-    let i = 0;
+  
     for (const value in meet) {
         if (meet.hasOwnProperty (value)) {
         if (value == boss)  {
